@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="App.css">
+    <title>TODO APP</title>
+</head>
+<body class="theme-light">
+    <section id="main">
+        <div class="bg-theme">
+            <div class="bg-top">
+                <img class = "bg-top-img" alt="">
+            </div>
+            <div class="bg-bottom"></div>
+        </div>
+        <div class="whole-app">
+            <div class="top-title">
+                <span class="title-todo">TODO</span>
+                <input type="checkbox" name="bg-theme" id="theme-color">
+                <label class="change-theme" for="theme-color"><img class="icons" src="images\icon-moon.svg" alt=""></label>
+            </div>
+            <div class="write-todo">
+                <div class="check-left">
+                    <span class="circle"></span>
+                </div>
+                <input class="write-it" type="text" name="write" id="write-here" placeholder="write here..">
+            </div>
+            <div class="todo-list">
+                <div class="lists-display">
+                    <ul>
+                        <!-- <li>
+                            <label class="container">
+                                <input type="checkbox">
+                                <span class="text">Three</span>
+                                <span class="checkmark"></span>
+                            </label>
+                            <span class="remove"></span>
+                        </li> -->
+                      
+                    </ul>
+                </div>
+                <div class="status-bar">
+                    <div class="status-left"><span>0</span>&nbsp;items&nbsp;left</div>
+                    <div class="status-right">
+                        <span class="mob-display">
+                            <input type="radio" name="status-check" id="check-all" checked>
+                            <label for="check-all" class="status-check">All</label>
+
+                            <input type="radio" name="status-check" id="check-active">
+                            <label for="check-active" class="status-check">Active</label>
+
+                            <input type="radio" name="status-check" id="check-completed">
+                            <label for="check-completed" class="status-check">Completed</label>
+                        </span>
+                        <button class="clear-button" style="padding-left: 45px;">Clear Completed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-drag">Drag and drop to reorder list</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="App.js"></script>
+</body>
+</html>
